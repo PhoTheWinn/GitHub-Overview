@@ -10,10 +10,10 @@ jobs:
  run: echo Hello World! This is the first job
 
  secondjob:
- runs-on: ubuntu-latest
- steps:
- - name: secondJob script
- shell: bash
+  runs-on: ubuntu-latest
+  steps:
+   - name: secondJob script
+   shell: bash
  run: |
   echo this is the second job
   echo and this is a multi-line script
